@@ -5,10 +5,24 @@ $('.test__card').slick({
     autoplay: true,
     autoplaySpeed: 2000,
     responsive:[
+
         {
-            breakpoints:576,
+            breakpoint:769,
             settings:{
-                slidesToShow:2
+                slidesToShow: 2
+            }
+
+        },
+        {
+            breakpoint: 992,
+            settings:{
+                slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 577,
+            settings:{
+                slidesToShow: 1
             }
         }
     ]

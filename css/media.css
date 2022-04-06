@@ -1,4 +1,5 @@
 @media (max-width: 1200px) {
+
     .container {
         width: 90%;
         margin: 0 auto;
@@ -16,9 +17,11 @@
         line-height: 35px;
         width: 42%;
     }
-    .team__item1{
+
+    .team__item1 {
         padding-right: 67px;
     }
+
     .team__item2 {
         top: 53%;
         left: 31%;
@@ -29,6 +32,7 @@
         right: 30px;
         top: 49%;
     }
+
 
     .very-easy-text {
         font-size: 14px;
@@ -49,15 +53,17 @@
     }
 
     .brand {
-        width: 1083px;
+        width: 989px;
+        margin: 0 auto;
     }
 
     .work-pic {
-        width: 100vw;
+        width: 75%;
     }
 
     .about {
-        width: 1086px;
+        width: 992px;
+        margin: 0 auto;
     }
 
     .testimonial__p {
@@ -100,17 +106,15 @@
         font-weight: 500;
     }
 
-
 }
 
 @media (max-width: 1024px) {
     .about {
-        width: 924px;
+        width: 95%;
     }
 
     .about__item {
-        Width: 283px;
-        Height: 247px;
+        width: 30%;
     }
 
     .about__title {
@@ -137,32 +141,34 @@
     }
 
     .team__item1 {
-        width: 453px;
-        padding-right: -15%;
-        padding-left: -1%;
-        margin-right: -117px;
+
+        width: 86%;
+        position: relative;
+        left: 33%;
     }
 
     .team__item2 {
-        width: 261px;
-        height: 280px;
+        width: 54%;
         top: 46%;
-        left: 49%;
+        left: 63%;
     }
 
     .team__item4 {
-        right: -29%;
+        right: -18%;
         top: 48%;
+        width: 11%;
     }
 
     .team__item3 {
-        left: -9%;
-        bottom: 9%;
+        left: 28%;
+        bottom: 11%;
+        width: 11%;
     }
 
     .project {
         width: 930px;
     }
+
     .project__title-up {
         font-size: 26px;
     }
@@ -218,7 +224,8 @@
         margin: 0 150px;
         font-weight: bold;
     }
-    .henry{
+
+    .henry {
         font-weight: 500;
         font-size: 16px;
     }
@@ -236,26 +243,46 @@
     #team {
         width: 85%;
     }
-    .we__title{
+
+    .we__title {
         font-size: 24px;
     }
 
 }
 
 @media (max-width: 992px) {
-    .hero {
-        width: 900px;
+
+    .about__desc {
+        font-size: 13px
     }
+
+    .brand {
+        width: 100%;
+    }
+
+    .img__avatar-g {
+        margin: 0 auto;
+    }
+
+    .very-easy-text {
+        width: 87%;
+    }
+
 }
 
 @media (max-width: 768px) {
+
+    .navbar, .btn {
+        display: none;
+    }
+
     .navbar__item {
         font-size: 12px;
         margin: 0 20px;
     }
 
     .hero {
-        width: 690px;
+        width: 100%;
     }
 
     .title {
@@ -277,23 +304,54 @@
     }
 
     .about {
-        width: 695px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .about__item {
-        width: 210px;
-        height: 225px;
-        padding: 47px 20px 20px 20px;
+        width: 80%;
+        padding: 45px 20px 45px 20px;
+        margin: 25px 0;
+    }
+
+    .about__title {
+        font-size: 14px;
+        margin-top: 4px;
     }
 
     .about__desc {
-        font-size: 13px;
+        font-size: 11px;
         line-height: 20px;
     }
 
     .brand {
-        width: 691px;
-        padding: 30px 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .brand img {
+        margin: 15px 30px;
+    }
+
+    .brand__img1, .brand__img2 {
+        width: 35%;
+    }
+
+    .brand__img3, .brand__img4 {
+        width: 35%;
+    }
+
+    .brand__img5 {
+        width: 35%;
+    }
+
+    .work {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     .work-pic {
@@ -306,35 +364,43 @@
 
     .wrapper__title-up {
         font-size: 23px;
-        line-height: 38px;
+        line-height: 34px;
     }
 
     .wrapper_desc {
-        width: 77%;
+        width: 100%;
+    }
+
+    #team {
+        width: 100%;
     }
 
     .team__item1 {
-        width: 380px;
+        width: 75%;
+        position: relative;
+        left: 2%;
     }
 
     .team__item2 {
-        width: 209px;
-        left: 53%;
+        width: 47%;
+        left: 41%;
+        top: 47%;
     }
 
     .team__item4 {
-        top: 59%;
-        right: -79px;
-        width: 12%;
+        top: 51%;
+        right: 14%;
+        width: 7%;
     }
 
     .team__item3 {
-        bottom: 62px;
-        width: 12%;
+        bottom: 13%;
+        width: 7%;
+        left: 12%;
     }
 
-    .wrapper__title-up {
-        font-size: 27px;
+    .pic {
+        flex-wrap: wrap;
     }
 
     .project {
@@ -346,7 +412,8 @@
     }
 
     .wrapper-item__card {
-        width: 297px;
+        width: 290px;
+
     }
 
     .card-canvas2::after {
@@ -371,7 +438,28 @@
     }
 
     .started {
-        width: 689px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .started__title {
+        padding-top: 22px;
+    }
+
+    .tabs {
+        display: none;
+    }
+
+    .slick-dots li {
+        margin: 0 4px;
+    }
+
+    .slick-next {
+        display: none;
+    }
+
+    .slick-prev {
+        display: none;
     }
 
     .started__title2 {
@@ -383,19 +471,23 @@
         padding: 8px 26px;
     }
 
+    .started {
+        height: 946px;
+    }
+
     .started__card1 {
-        width: 200px;
-        height: 390px;
+        width: 290px;
+        height: 330px;
     }
 
     .started__card2 {
-        width: 200px;
-        height: 390px;
+        width: 290px;
+        height: 330px;
     }
 
     .started__card3 {
-        width: 200px;
-        height: 390px;
+        width: 290px;
+        height: 330px;
     }
 
     .ui__design__title {
@@ -407,9 +499,9 @@
     }
 
     .page__title {
-        font-size: 15px;
-        line-height: 25px;
-        width: 110px;
+        font-size: 14px;
+        line-height: 32px;
+        width: 61%;
     }
 
     .detail__btn {
@@ -435,8 +527,8 @@
     }
 
     .img__avatar-g {
-        margin: 9px 56px;
-        width: 40%;
+
+        width: 28%;
     }
 
     .henry {
@@ -450,12 +542,20 @@
 
     .very-easy-text {
         line-height: 30px;
-        width: 134px;
         font-size: 11px;
+        width: 80%;
     }
 
     .slick-dots {
         margin: -7px;
+    }
+
+    .slick-next {
+        display: none;
+    }
+
+    .slick-prev {
+        display: none;
     }
 
     .we__we {
@@ -464,15 +564,18 @@
         font-size: 19px;
         line-height: 35px;
     }
+
     .we__title {
         font-size: 16px;
         line-height: 30px;
     }
+
     .we__btn1 {
         font-size: 12px;
         line-height: 20px;
         padding: 10px 30px 10px 30px;
     }
+
     .we__btn2 {
         font-size: 12px;
         line-height: 20px;
@@ -503,9 +606,11 @@
     .page-about {
         font-size: 12px;
     }
+
     .footer__box_logo {
         font-size: 22px;
     }
+
     .footer__desc {
         font-size: 13px;
         line-height: 30px;
@@ -515,217 +620,300 @@
 
 @media (max-width: 576px) {
 
-    .navbar__item {
-        display: none;
+    .project {
+        width: 100%;
     }
 
-    .hero {
-        width: 524px;
+    .project__wrapper {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .wrapper-item__card {
+        margin: 40px 0;
+    }
+
+    .started {
+        height: 1322px;
+        width:100%;
+    }
+
+    .started__title2 {
+        margin: 15px 20px;
+        font-size: 23px;
+        width: 90%;
+    }
+
+
+    .testimonial__p {
+        font-size: 25px;
+        margin: 0 -50px;
+
+    }
+
+    .we__title {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .we__btn1 {
+        font-size: 10px;
+        padding: 5px 20px 5px 20px;
+    }
+
+    .we__btn2 {
+        font-size: 10px;
+        padding: 5px 20px 5px 20px;
+    }
+
+    .footer {
+        flex-wrap: wrap-reverse;
+        margin-left: 13%;
+    }
+
+    .footer__box {
+        width: 48%;
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width: 414px) {
+    .title {
+        font-size: 11px;
     }
 
     .title-up {
+        font-size: 25px;
         line-height: 45px;
     }
 
     .desc {
-        width: 60%;
+        width: 62%;
     }
 
     .hero__btn {
-        font-size: 9px;
+        padding: 11px 26px;
+        margin: 18px 10px 0 10px;
     }
-    .about__item {
-        width: 155px;
-        height: 209px;
-    }
+
     .about {
-        width: 517px;
+        padding-top: 50px;
     }
-    .about__title {
-        margin-top: 6px;
-        font-size: 14px;
-    }
-    .about__desc {
-        font-size: 9px;
-        line-height: 15px;
-    }
-    .brand {
-        width: 510px;
-    }
-    .pic__comany{
-        width: 80px;
-    }
-    .work-pic {
-        width: 58vw;
-    }
-    .wrapper__title-up {
-        font-size: 14px;
-        line-height: 30px;
-    }
-    .wrapper_desc{
-        font-size: 12px;
-        width: 97%;
-        line-height: 25px;
-    }
-    .team__item1 {
-        width: 280px;
-        padding-left: 47px;
-    }
-    .team__item2 {
-        width: 180px;
-        left: 50%;
-        top: 37%;
-    }
-    .team__item4 {
-        top: 54%;
-        right: -29px;
-        width: 11%;
-    }
-    .team__item3 {
-        left: 31px;
-        bottom: 82px;
-        width: 11%;
-    }
-    .wrapper__title-up {
-        font-size: 13px;
-        line-height: 25px;
-    }
-    .wrapper_desc {
-        font-size: 11px;
-        width: 93%;
-        line-height: 22px;
-    }
-    .hero__btn {
 
-        font-size: 8px;
-        padding: 11px 17px;
+    .brand__img1, .brand__img2 {
+        width: 70%;
     }
+
+    .brand__img3, .brand__img4 {
+        width: 70%;
+    }
+
+    .brand__img5 {
+        width: 70%;
+    }
+
+    .work-pic {
+        width: 70vw;
+    }
+
+    .wrapper_desc {
+        font-size: 10px;
+    }
+
     .project {
-        width: 521px;
+        width: 100%;
     }
-    .project__title {
-        font-size: 14px;
-    }
-    .project__title-up {
-        font-size: 21px;
-        line-height: 38px;
-        width: 51%;
-    }
-    .wrapper-item__card {
-        width: 228px;
-    }
-    .card-canvas:after {
-        width: 147px;
-        left: 3px;
-    }
-    .card-canvas2::after {
-        width: 187px;
-        left: -18px;
-    }
-    .project__wrapper__title {
-        font-size: 13px;
-        margin-top: 5px;
-    }
-    .project__wrapper__title2 {
-        font-size: 11px;
-        line-height: 17px;
-    }
-    .project__btn {
-        font-size: 10px
-    }
+
     .started {
-        width: 517px;
+        height: 1328px;
+        width: 369px;
     }
-    .started__title2 {
-        margin: 11px 0;
-        line-height: 37px
-    }
-    .label__tab {
-        margin: 0 2px;
-        padding: 6px 14px;
-    }
-    .started__card3{
-        display: none;
-    }
+
     .testimonial__p {
-        margin: 0 -40px;
-        font-size: 29px;
-        font-weight: 500;
+        font-size: 13px;
+        margin: 0 -119px;
     }
-    .img__avatar-g {
-        margin: 9px 40px;
+
+    .slick-dots button {
+        width: 7px;
+        height: 7px
     }
-    .biffco {
-        font-size: 10px;
-    }
-    .very-easy-text {
-        line-height: 23px;
-        width: 82px;
-    }
-    .we__we {
-        width: 296px;
-        font-size: 15px;
-        line-height: 36px;
-    }
-    .page-about {
-        font-size: 10px;
-    }
-    .pages-title {
-        margin: 50px 23px;
+    .we{
+        flex-wrap: wrap;
     }
     .we__title {
-        font-size: 13px;
-        line-height: 26px
+        margin-bottom: 30px;
     }
-    .footer__box_logo {
-        font-size: 15px;
-        margin-left: 3px;
+    .we__btn2 {
+        margin-left: 20px;
     }
-    .footer__desc {
-        font-size: 10px;
-        line-height: 20px;
+    .footer {
+        margin-left: -21%;
+        flex-direction: column-reverse;
     }
-    .footer__box__title {
-                 font-size: 11px;
-    }
-
-    .footer__box-item {
-        font-size: 11px;
-        line-height: 22px;
-    }
-
-
-
-}
-
-@media (min-width: 414px) {
 
 }
 
 
 @media (max-width: 375px) {
-    .container {
-        width: 375px;
-        margin: 0 auto;
+    .title {
+        font-size: 12px;
+    }
+    .brand__img1, .brand__img2 {
+        width: 100%;
+    }
+    .brand__img3, .brand__img4 {
+        width: 100%;
+    }
+    .brand__img5{
+        width: 100%;
+    }
+    .work-pic {
+        width: 100%;
+    }
+    .wrapper__title-up {
+        font-size: 22px;
+    }
+    .wrapper_desc {
+        font-size: 11px;
+    }
+    .team__item1 {
+        width: 85%;
+        left: 8%;
+    }
+    .team__item2 {
+        width: 47%;
+        left: 41%;
+        top: 30%;
+    }
+    .team__item4 {
+        width: 6%;
+    }
+    .team__item3 {
+        bottom: 28%;
+        width: 6%;
+        left: 14%;
+    }
+    .project__title-up {
+        line-height: 43px;
+        width: 71%;
+    }
+    .started {
+        height: 1373px;
+        width: 100%;
+    }
+    .page__title{
+        margin: 11px 45px;
+    }
+    .started__card1, .started__card2, .started__card3{
+        width: 80%;
+    }
+    .pic{
+        margin-left: 12%;
+    }
+    .testimonial__p {
+        font-size: 14px;
+        margin: 0 -132px;
+    }
+    .footer {
+        margin-left: -32%;
     }
 
-    .title {
-        font-size: .5vw;
-    }
 }
 
 @media (max-width: 320px) {
-    .container {
-        width: 50%;
+
+    .container{
+        width: 90%;
         margin: 0 auto;
     }
-
-    .title {
-        font-size: 6px;
+    .title-up {
+        font-size: 24px;
+        width: 780px;
+    }
+    desc {
+        line-height: 28px;
     }
 
-    .wrapper__title-up {
-        font-size: 21px;
+    .hero__btn {
+        font-size: 13px;
+    }
+    .wrapper_desc {
+        font-size: 13px;
+    }
+    .team__item1 {
+        width: 100%;
+        left: 10%;
+    }
+    .team__item2 {
+        width: 60%;
+        left: 32%;
+        top: 29%;
+    }
+    .team__item4 {
+        top: 47%;
+        right: 14%;
+        width: 10%;
+    }
+    .team__item3 {
+        bottom: 28%;
+        width: 10%;
+        left: 8%;
+    }
+
+    .wrapper-item__card {
+        width: 100%;
+    }
+    .card-canvas2::after {
+        width: 183px;
+        left: -14px;
+    }
+    .started {
+        height: 1170px;
+        width: 100%;
+    }
+    .started__card1 {
+        width: 75%;
+        height: 275px;
+        margin: 0 35px;
+    }
+    .page__title {
+        font-size: 12px;
+        line-height: 24px;
+        width: 62%;
+        margin: 16px 43px;
+    }
+    .ui__design__title {
+        margin-top: 28px;
+    }
+    .starting__title-from {
+        margin-top: 33px;
+    }
+
+    .started__card2 {
+        width: 75%;
+        height: 275px;
+        margin: 0 35px;
+    }
+    .started__card3 {
+        width: 75%;
+        height: 275px;
+        margin: 0 35px;
+    }
+    .ui__design {
+        margin-top: 38px;
+    }
+    .testimonial__p{
+        font-size: 11px;
+        margin: 0 161px;
+    }
+    .pic{
+        margin-left: 2%;
+    }
+    .detail__btn,.detail__btn2, .detail__btn3 {
+        font-size: 14px;
+        width: 112px;
+        height: 29px;
     }
 
 }
