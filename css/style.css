@@ -13,10 +13,6 @@ a, a:hover {
     text-decoration: none;
 }
 
-html, body{
-    overflow-x: hidden;
-}
-
 body {
     font-family: "Noto Sans", sans-serif;
     background: rgba(11, 11, 34, 0.9);
@@ -31,12 +27,12 @@ body {
 /******************HEADER********************/
 
 .header {
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    margin: 0 auto;
+    margin-bottom: 100px;
+
 }
 
 .logo {
@@ -53,13 +49,13 @@ body {
 }
 
 .logo-pic {
-    margin: 10px;
+   padding: 20px;
 }
 
 .navbar__item {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
-    margin: 0 25px;
+   padding: 0 30px;
     transition: .2s;
 }
 
@@ -91,6 +87,7 @@ body {
 }
 
 .container{
+    width: 1140px;
 
 }
 
@@ -99,7 +96,11 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.hero__block{
+    width: 600px;
+    flex-wrap: wrap;
 }
 
 .title {
@@ -108,6 +109,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.1em;
     color: #16FCD2;
+    margin-bottom: 20px;
 }
 
 .title::before {
@@ -128,18 +130,18 @@ body {
     font-weight: bold;
     font-size: 36px;
     color: #FFFFFF;
-    padding: 0 260px;
+    margin-bottom: 20px;
     line-height: 54px;
-    margin-top: 20px;
+
 }
 
 .desc {
+    width: 539px;
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
     color: rgba(255, 255, 255, 0.6);
-    width: 50%;
-    margin-top: 20px;
+
 }
 
 .hero__btn {
@@ -176,6 +178,7 @@ body {
 /******************ABOUT*******************/
 
 #hero{
+    margin-bottom: 60px;
 
 }
 
@@ -186,15 +189,16 @@ body {
 .about {
     display: flex;
     justify-content: space-around;
-    padding-top: 100px;
+    flex-wrap: wrap;
 
 }
 
 .about__item {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 5px;
-    width: 30%;
+    width: 328px;
     padding: 90px 20px 20px 20px;
+    margin-bottom: 45px;
 }
 .img__design{
     background: rgba(255, 255, 255, 0.03);
@@ -213,13 +217,14 @@ body {
     font-size: 16px;
     line-height: 32px;
     color: rgba(255, 255, 255, 0.6);
+    width: 80%;
 }
 
 /*************ABOUT******************/
 
 /*************BRAND******************/
 #brand {
-    margin-top: 60px;
+   margin-bottom: 60px;
 }
 
 .container{
@@ -232,7 +237,9 @@ body {
     justify-content: space-between;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 30px 100px;
+    padding: 30px 8px;
+    flex-wrap: wrap;
+
 }
 
 /*//************BRAND*************-//*/
@@ -240,7 +247,7 @@ body {
 /*//////////////WORK*****************/
 
 #work {
-    margin-top: 70px;
+
 }
 
 .container{
@@ -255,25 +262,32 @@ body {
 
 .work-pic {
     width: 50%;
+    margin-bottom: 50px;
 }
 
+.wrapper{
+    width: 502px;
+}
 .wrapper__title {
+   align-items: center;
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 0.1em;
     color: #16FCD2;
+    margin-bottom: 20px;
 }
 
 .wrapper__title-up {
-    margin-top: 20px;
     font-weight: bold;
     font-size: 30px;
     line-height: 48px;
     color: #FFFFFF;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .wrapper_desc {
-    margin-top: 20px;
+   align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
@@ -285,15 +299,25 @@ body {
 /***************TEAM*****************/
 
 #team {
-
+margin-bottom: 100px;
 }
 
 .container{
 
 }
+.team__work{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 17%;
+
+
+}
 
 .team__wrapper {
-    margin-top: 100px;
+    align-items: center;
+    width: 415px;
+    flex-wrap: wrap;
 }
 
 .team__pic-items {
@@ -305,9 +329,9 @@ body {
 }
 
 .team__item1 {
-
-    width: 505px;
-    height: 324px;
+   width: 100%;
+    /*width: 505px;*/
+    /*height: 324px;*/
 
 
 }
@@ -363,7 +387,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1140px;
+
+
 }
 
 .project__title {
@@ -371,7 +396,10 @@ body {
     font-size: 16px;
     letter-spacing: 0.1em;
     color: #16FCD2;
-    margin-top: 50px;
+   align-items: center;
+    margin-bottom: 10px;
+
+
 }
 
 .project__title-up {
@@ -379,18 +407,22 @@ body {
     font-size: 30px;
     line-height: 48px;
     color: #FFFFFF;
-    width: 40%;
-    margin-top: 50px;
+    width: 507px;
+    text-align: center;
+
+
 
 }
 
 .project__wrapper {
     display: flex;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .project__wrapper-item {
     margin: 0 15px;
+    flex-wrap: wrap;
 }
 
 .wrapper-item__card {
@@ -515,7 +547,7 @@ body {
 /*****************STARTED**********/
 
 #started {
-    text-align: center;
+
 }
 
 .container{
@@ -523,13 +555,16 @@ body {
 }
 
 .started {
+    text-align: center;
     border-radius: 30px;
     background: rgba(34, 16, 72, 1);
-    width: 1130px;
-    height: 750px;
+    width:100%;
+    height: 100%;
     left: 66px;
-    margin-top: 100px;
+
+
 }
+
 
 .started__title {
     font-weight: 500;
@@ -537,7 +572,8 @@ body {
     line-height: 32px;
     letter-spacing: 0.1em;
     color: #16FCD2;
-    padding-top: 90px;
+    padding-top: 50px;
+
 }
 
 .started__title2 {
@@ -545,8 +581,8 @@ body {
     font-size: 30px;
     line-height: 48px;
     color: #FFFFFF;
-    width: 507px;
-    margin: 0 300px;
+
+
 }
 
 .tabs {
@@ -569,6 +605,7 @@ body {
 .pic {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -661,8 +698,7 @@ body {
     color: rgba(63, 35, 121, 1);
     background: #FFFFFF;
     border-radius: 3px;
-    width: 234px;
-    height: 52px;
+   padding:15px 90px;
     border: none;
     transition: 0.2s;
 }
@@ -673,8 +709,7 @@ body {
     color: rgba(63, 35, 121, 1);
     background: #FFFFFF;
     border-radius: 3px;
-    width: 234px;
-    height: 52px;
+    padding:15px 90px;
     border: none;
     transition: 0.2s;
 }
@@ -685,8 +720,7 @@ body {
     color: rgba(63, 35, 121, 1);
     background: #FFFFFF;
     border-radius: 3px;
-    width: 234px;
-    height: 52px;
+    padding:15px 90px;
     border: none;
     transition: 0.2s;
 }
@@ -749,9 +783,7 @@ body {
     font-weight: bold;
     font-size: 30px;
     line-height: 48px;
-    width: 507px;
     color: #FFFFFF;
-    margin: 0 300px;
 }
 
 .test__card {
@@ -865,8 +897,7 @@ body {
     font-size: 16px;
     line-height: 32px;
     color: rgba(255, 255, 255, 0.6);
-    width: 321px;
-    margin: 30px 30px;
+   padding: 30px 30px;
 }
 
 /*****************TESTIMONIAL***********/
@@ -888,6 +919,11 @@ body {
     padding: 20px 0;
 
 }
+
+.we__block{
+    width:589px ;
+}
+
 
 .we__title{
     font-style: normal;

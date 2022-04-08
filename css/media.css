@@ -1,919 +1,522 @@
 @media (max-width: 1200px) {
-
     .container {
         width: 90%;
         margin: 0 auto;
     }
 
-
     .title-up {
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 52px;
+        font-size: 34px;
     }
 
-    .desc {
-        font-size: 16px;
-        line-height: 35px;
-        width: 42%;
-    }
+    .very-easy-text {
 
-    .team__item1 {
-        padding-right: 67px;
     }
 
     .team__item2 {
-        top: 53%;
-        left: 31%;
-    }
-
-
-    .team__item4 {
-        right: 30px;
-        top: 49%;
-    }
-
-
-    .very-easy-text {
-        font-size: 14px;
-        width: 262px;
-    }
-
-    .img__avatar-g {
-        margin: 9px 109px;
-    }
-
-    .started {
-        width: 1087px;
-        height: 800px;
-    }
-
-    .started__title2 {
-        margin: 15px 288px;
-    }
-
-    .brand {
-        width: 989px;
-        margin: 0 auto;
-    }
-
-    .work-pic {
-        width: 75%;
-    }
-
-    .about {
-        width: 992px;
-        margin: 0 auto;
-    }
-
-    .testimonial__p {
-        font-size: 27px;
-        margin: 0 236px;
-        font-weight: 500;
-    }
-
-    .we__we {
-        width: 478px;
-        height: 94px;
-        font-size: 24px;
-        line-height: 41px;
-    }
-
-    .wrapper_desc {
-        font-size: 16px;
-        line-height: 32px;
-        width: 81%;
-    }
-
-    .wrapper__title-up {
-        font-weight: 500;
-        font-size: 30px;
-    }
-
-    .wrapper__title {
-        font-weight: 500;
-        font-size: 15px;
-    }
-
-    .project__title-up {
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 46px;
-        margin-top: 25px;
-    }
-
-    .started__title2 {
-        font-weight: 500;
-    }
-
-}
-
-@media (max-width: 1024px) {
-    .about {
-        width: 95%;
-    }
-
-    .about__item {
-        width: 30%;
-    }
-
-    .about__title {
-        font-weight: 400;
-        margin-top: 11px;
-    }
-
-    .about__desc {
-        font-size: 15px;
-        line-height: 24px;
-    }
-
-    .brand {
-        width: 913px;
-    }
-
-    .wrapper__title-up {
-        font-size: 24px;
-    }
-
-    .wrapper_desc {
-        font-size: 13px;
-        width: 78%;
-    }
-
-    .team__item1 {
-
-        width: 86%;
-        position: relative;
-        left: 33%;
-    }
-
-    .team__item2 {
-        width: 54%;
-        top: 46%;
-        left: 63%;
+        left: 36%;
     }
 
     .team__item4 {
-        right: -18%;
-        top: 48%;
-        width: 11%;
+        right: 2%;
     }
 
-    .team__item3 {
-        left: 28%;
-        bottom: 11%;
-        width: 11%;
-    }
-
-    .project {
-        width: 930px;
-    }
-
-    .project__title-up {
-        font-size: 26px;
-    }
-
-    .wrapper-item__card {
-        width: 410px;
-    }
-
-    .card-canvas2::after {
-        width: 323px;
-        left: -83px;
-    }
-
-    .started {
-        width: 917px;
-    }
-
-    .started__title2 {
-        margin: 15px 209px;
-    }
-
-    .label__tab {
-        margin: 0 19px;
-        padding: 9px 22px;
-    }
-
-    .started__card1 {
-        width: 270px;
-    }
-
-    .started__card2 {
-        width: 270px;
-    }
-
-    .started__card3 {
-        width: 270px;
-    }
-
-    .ui__design__title {
-        font-weight: 500;
-    }
-
-    .starting__title-from {
-        font-size: 13px;
-        font-weight: 500;
-    }
-
-    .page__title {
-        margin: 40px 55px;
-    }
-
-    .testimonial__p {
-        margin: 0 150px;
-        font-weight: bold;
-    }
-
-    .henry {
-        font-weight: 500;
-        font-size: 16px;
-    }
-
-    .img__avatar-g {
-        margin: 9px 80px;
-    }
-
-
-    .very-easy-text {
-        width: 214px;
-        font-size: 12px
-    }
-
-    #team {
-        width: 85%;
-    }
-
-    .we__title {
-        font-size: 24px;
-    }
-
-}
-
-@media (max-width: 992px) {
-
-    .about__desc {
-        font-size: 13px
-    }
-
-    .brand {
-        width: 100%;
-    }
-
-    .img__avatar-g {
-        margin: 0 auto;
-    }
-
-    .very-easy-text {
-        width: 87%;
-    }
-
-}
-
-@media (max-width: 768px) {
-
-    .navbar, .btn {
-        display: none;
-    }
-
-    .navbar__item {
-        font-size: 12px;
-        margin: 0 20px;
-    }
-
-    .hero {
-        width: 100%;
-    }
-
-    .title {
-        font-size: 12px;
-    }
-
-    .title-up {
-        width: 900px;
-    }
-
-    .desc {
-        font-size: 15px;
-        line-height: 33px;
-        width: 47%;
-    }
-
-    .hero__btn {
-        font-size: 10px;
-    }
-
-    .about {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .about__item {
-        width: 80%;
-        padding: 45px 20px 45px 20px;
-        margin: 25px 0;
-    }
-
-    .about__title {
-        font-size: 14px;
-        margin-top: 4px;
-    }
-
-    .about__desc {
-        font-size: 11px;
-        line-height: 20px;
-    }
-
-    .brand {
-        display: flex;
-        align-items: center;
+    .project__wrapper {
         justify-content: center;
         flex-wrap: wrap;
     }
 
-    .brand img {
-        margin: 15px 30px;
+    .project__wrapper-item {
+        margin: 50px 15px;
+        flex-wrap: wrap;
+
     }
 
-    .brand__img1, .brand__img2 {
-        width: 35%;
-    }
-
-    .brand__img3, .brand__img4 {
-        width: 35%;
-    }
-
-    .brand__img5 {
-        width: 35%;
-    }
-
-    .work {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .work-pic {
-        width: 57vw;
-    }
-
-    .wrapper__title {
-        font-size: 13px;
+    .we__block {
+        width: 542px;
     }
 
     .wrapper__title-up {
-        font-size: 23px;
-        line-height: 34px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .title-up {
+        font-size: 34px;
     }
 
-    .wrapper_desc {
-        width: 100%;
+    .wrapper__title-up {
+        font-size: 27px;
+        line-height: 46px;
     }
 
-    #team {
-        width: 100%;
+    .wrapper__title-up {
+        font-size: 25px;
+        line-height: 44px;
     }
 
     .team__item1 {
-        width: 75%;
-        position: relative;
-        left: 2%;
+        width: 86%;
     }
 
     .team__item2 {
-        width: 47%;
-        left: 41%;
-        top: 47%;
-    }
-
-    .team__item4 {
+        left: 30%;
+        width: 62%;
         top: 51%;
-        right: 14%;
-        width: 7%;
     }
 
     .team__item3 {
-        bottom: 13%;
-        width: 7%;
-        left: 12%;
+        left: -5%;
+        width: 10%;
     }
 
-    .pic {
-        flex-wrap: wrap;
-    }
-
-    .project {
-        width: 712px;
+    .team__item4 {
+        right: 9%;
+        top: 47%;
+        width: 10%;
     }
 
     .project__title-up {
-        font-size: 23px;
+        font-weight: 700;
     }
 
-    .wrapper-item__card {
-        width: 290px;
-
+    .we__block {
+        width: 46%;
     }
 
-    .card-canvas2::after {
-        width: 230px;
-        left: -39px;
+    .img__avatar-g {
+        margin: 0 auto;
     }
 
-    .card-canvas:after {
-        width: 174px;
-        left: -6px;
+    .we__title {
+        font-size: 26px;
     }
 
-    .project__wrapper__title {
-        font-weight: 500;
-        font-size: 16px;
+    .we__btn1 {
+        padding: 10px 30px 10px 30px;
     }
 
-    .project__wrapper__title2 {
-        font-size: 12px;
-        line-height: 31px;
-        margin-top: 0;
+    .we__btn2 {
+        padding: 10px 40px 10px 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero__block {
+        width: 558px;
     }
 
-    .started {
-        height: 100%;
-        width: 100%;
+    .title-up {
+        font-size: 32px;
     }
 
-    .started__title {
-        padding-top: 22px;
+    .wrapper__title-up {
+        font-size: 23px
+    }
+
+    .hero__btn {
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+
+    .project__title-up {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar__item {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .hero__block {
+        width: 492px;
+    }
+
+    .title-up {
+        font-size: 28px;
+    }
+
+    .brand__img1 {
+        width: 35%;
+        margin-bottom: 30px;
+    }
+
+    .brand__img2 {
+        width: 36%;
+        margin-bottom: 30px;
+    }
+
+    .brand__img3 {
+        width: 30%;
+    }
+
+    .brand__img4 {
+        width: 30%;
+    }
+
+    .brand__img5 {
+        width: 30%;
     }
 
     .tabs {
         display: none;
     }
 
-    .slick-dots li {
-        margin: 0 4px;
+    .hero__block {
+        width: 401px;
     }
 
-    .slick-next {
-        display: none;
+    .desc {
+        width: 100%;
     }
 
-    .slick-prev {
-        display: none;
+    .footer {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
-    .started__title2 {
-        margin: 11px 98px;
+    .footer__box {
+        width: 34%;
+        margin-bottom: 40px;
     }
 
-    .label__tab {
-        margin: 0 5px;
-        padding: 8px 26px;
-    }
-
-    .started {
-        height: 946px;
-    }
-
-    .started__card1 {
-        width: 290px;
-        height: 330px;
-    }
-
-    .started__card2 {
-        width: 290px;
-        height: 330px;
-    }
-
-    .started__card3 {
-        width: 290px;
-        height: 330px;
-    }
-
-    .ui__design__title {
-        font-size: 14px;
-    }
-
-    .starting__title-from {
-        font-size: 12px;
-    }
-
-    .page__title {
-        font-size: 14px;
-        line-height: 32px;
-        width: 61%;
-    }
-
-    .detail__btn {
-        font-size: 15px;
-        width: 144px;
-        height: 37px;
-    }
-
-    .detail__btn2 {
-        font-size: 15px;
-        width: 144px;
-        height: 37px;
-    }
-
-    .detail__btn3 {
-        font-size: 15px;
-        width: 144px;
-        height: 37px;
-    }
-
-    .testimonial__p {
-        margin: 0 42px;
-    }
-
-    .img__avatar-g {
-
-        width: 28%;
-    }
-
-    .henry {
-        font-weight: 500;
-        font-size: 14px;
-    }
-
-    .biffco {
-        font-size: 11px;
-    }
-
-    .very-easy-text {
-        line-height: 30px;
-        font-size: 11px;
-        width: 80%;
-    }
-
-    .slick-dots {
-        margin: -7px;
-    }
-
-    .slick-next {
-        display: none;
-    }
-
-    .slick-prev {
-        display: none;
-    }
-
-    .we__we {
-        width: 290px;
-        height: 95px;
-        font-size: 19px;
-        line-height: 35px;
-    }
-
-    .we__title {
-        font-size: 16px;
-        line-height: 30px;
-    }
-
-    .we__btn1 {
-        font-size: 12px;
-        line-height: 20px;
-        padding: 10px 30px 10px 30px;
-    }
-
-    .we__btn2 {
-        font-size: 12px;
-        line-height: 20px;
-        padding: 10px 30px 10px 30px;
-    }
-
-    .send-btn {
-        font-size: 12px;
-        width: 144px;
-        height: 40px;
-    }
-
-    .ask-btn {
-        font-size: 12px;
-        width: 144px;
-        height: 40px;
-    }
-
-    .pages-title {
-        margin: 50px 50px;
-    }
-
-    .logo-tip {
-        font-weight: 500;
-        font-size: 26px;
-    }
-
-    .page-about {
-        font-size: 12px;
-    }
-
-    .footer__box_logo {
-        font-size: 22px;
-    }
-
-    .footer__desc {
-        font-size: 13px;
-        line-height: 30px;
-    }
 
 }
 
 @media (max-width: 576px) {
-
-    .project {
-        width: 100%;
-    }
-
-    .project__wrapper {
-        margin-top: 30px;
-        flex-direction: column;
-    }
-
-    .wrapper-item__card {
-        margin: 40px 0;
-    }
-
-    .started {
-        height: 1322px;
-        width:100%;
-    }
-
-    .started__title2 {
-        margin: 15px 20px;
-        font-size: 23px;
-        width: 90%;
-    }
-
-
-    .testimonial__p {
-        font-size: 25px;
-        margin: 0 -50px;
-
-    }
-
-    .we__title {
-        font-size: 14px;
-        line-height: 30px;
-    }
-
-    .we__btn1 {
-        font-size: 10px;
-        padding: 5px 20px 5px 20px;
-    }
-
-    .we__btn2 {
-        font-size: 10px;
-        padding: 5px 20px 5px 20px;
-    }
-
-    .footer {
-        flex-wrap: wrap-reverse;
-        margin-left: 13%;
-    }
-
-    .footer__box {
-        width: 48%;
-        margin-bottom: 48px;
-    }
-}
-
-@media (max-width: 414px) {
     .title {
-        font-size: 11px;
+        font-size: 12px;
     }
 
-    .title-up {
-        font-size: 25px;
-        line-height: 45px;
+    .hero__block {
+        width: 84%;
     }
 
     .desc {
-        width: 62%;
-    }
-
-    .hero__btn {
-        padding: 11px 26px;
-        margin: 18px 10px 0 10px;
-    }
-
-    .about {
-        padding-top: 50px;
-    }
-
-    .brand__img1, .brand__img2 {
-        width: 70%;
-    }
-
-    .brand__img3, .brand__img4 {
-        width: 70%;
-    }
-
-    .brand__img5 {
-        width: 70%;
-    }
-
-    .work-pic {
-        width: 70vw;
-    }
-
-    .wrapper_desc {
-        font-size: 10px;
-    }
-
-    .project {
         width: 100%;
     }
 
-    .started {
-        height: 1328px;
-        width: 369px;
+    .brand__img1 {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .brand__img2 {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .brand__img3 {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .brand__img4 {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .brand__img5 {
+        width: 40%;
+        position: relative;
+        left: 30%;
+    }
+
+    .work {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .work-pic {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .wrapper__title-up {
+        font-size: 18px;
+        line-height: 42px;
+    }
+
+    .wrapper {
+        width: 73%;
+    }
+
+    .team__work {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team__wrapper {
+        align-items: center;
+        width: 67%;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+
+    .team__item1 {
+        width: 54%;
+        position: relative;
+        left: -12%;
+    }
+
+    .team__item2 {
+        left: 35%;
+        width: 41%;
+        top: 8%;
+    }
+
+    .team__item4 {
+        right: 25%;
+        top: 33%;
+        width: 6%;
+    }
+
+    .team__item3 {
+        left: 7%;
+        width: 7%;
+    }
+
+    .project__title-up {
+        width: 87%;
+    }
+
+    .wrapper-item__card {
+        width: 400px;
+    }
+
+    .project__wrapper__title {
+        font-weight: 500;
+    }
+
+    .card-canvas2::after {
+        width: 316px;
+        left: -54%;
+    }
+
+    .started__title2 {
+        font-weight: 500;
     }
 
     .testimonial__p {
-        font-size: 13px;
-        margin: 0 -119px;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .slick-prev {
+        display: none;
+    }
+
+    .slick-next {
+        display: none;
+    }
+
+    .slick-dots {
+        margin-top: 0;
     }
 
     .slick-dots button {
         width: 7px;
-        height: 7px
+        height: 7px;
     }
-    .we{
-        flex-wrap: wrap;
+
+    .we {
+        padding: 20px 28px;
+        flex-direction: column;
+        text-align: center;
     }
+
     .we__title {
+        font-size: 23px;
         margin-bottom: 30px;
     }
-    .we__btn2 {
-        margin-left: 20px;
+
+    .we__block {
+        width: 100%;
     }
+
     .footer {
-        margin-left: -21%;
-        flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+    }
+
+    .footer__box {
+        width: 33%;
+        margin: 30px 40px;
     }
 
 }
 
+@media (max-width: 414px) {
 
-@media (max-width: 375px) {
-    .title {
-        font-size: 12px;
-    }
-    .brand__img1, .brand__img2 {
-        width: 100%;
-    }
-    .brand__img3, .brand__img4 {
-        width: 100%;
-    }
-    .brand__img5{
-        width: 100%;
-    }
-    .work-pic {
-        width: 100%;
-    }
-    .wrapper__title-up {
-        font-size: 22px;
-    }
-    .wrapper_desc {
-        font-size: 11px;
-    }
-    .team__item1 {
-        width: 85%;
-        left: 8%;
-    }
-    .team__item2 {
-        width: 47%;
-        left: 41%;
-        top: 30%;
-    }
-    .team__item4 {
-        width: 6%;
-    }
-    .team__item3 {
-        bottom: 28%;
-        width: 6%;
-        left: 14%;
-    }
-    .project__title-up {
-        line-height: 43px;
-        width: 71%;
-    }
-    .started {
-        height: 1373px;
-        width: 100%;
-    }
-    .page__title{
-        margin: 11px 45px;
-    }
-    .started__card1, .started__card2, .started__card3{
+    .hero__block {
         width: 80%;
     }
-    .pic{
-        margin-left: 12%;
+
+    .title-up {
+        font-weight: bold;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+        line-height: 46px;
     }
+
+    desc {
+        font-size: 15px;
+    }
+
+    .about__item {
+        width: 75%;
+    }
+
+    .team__item1 {
+        width: 80%;
+        left: 0%;
+    }
+
+    .team__item2 {
+        left: 35%;
+        width: 56%;
+        top: 17%;
+    }
+
+    .team__item3 {
+        left: 14%;
+        width: 10%;
+        top: 71%;
+    }
+
+    .team__item4 {
+        right: 16%;
+        top: 11%;
+        width: 10%;
+    }
+
+    .project__title-up {
+        font-weight: 300;
+        width: 86%;
+        line-height: 43px;
+    }
+
+    .wrapper-item__card {
+        width: 100%;
+    }
+
+    .card-canvas2::after {
+        width: 255px;
+        left: -31%;
+    }
+
+    .started__title2 {
+        font-size: 22px;
+        line-height: 42px;
+    }
+
+    .started__card1 {
+        width: 297px;
+        height: 385px;
+    }
+
+    .started__card2 {
+        width: 297px;
+        height: 385px;
+    }
+
+    .started__card3 {
+        width: 297px;
+        height: 385px;
+    }
+
     .testimonial__p {
-        font-size: 14px;
-        margin: 0 -132px;
+        font-size: 17px;
+        line-height: 29px;
     }
-    .footer {
-        margin-left: -32%;
+
+    .slick-prev {
+        display: none;
+    }
+
+    .slick-next {
+        display: none;
+    }
+
+    .very-easy-text {
+        font-size: 13px;
+    }
+
+    .we__title {
+        font-size: 19px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .testimonial__p {
+        font-size: 15px;
+    }
+
+    .we__title {
+        font-size: 17px;
+    }
+
+    .we__btn1 {
+        font-weight: 100;
+        font-size: 12px;
+    }
+    .we__btn2 {
+        font-weight: 100;
+        font-size: 13px;
+        margin: 0 10px;
     }
 
 }
 
 @media (max-width: 320px) {
-
-    .container{
-        width: 90%;
-        margin: 0 auto;
-    }
-    .title-up {
-        font-size: 24px;
-        width: 780px;
-    }
-    desc {
-        line-height: 28px;
-    }
-
-    .hero__btn {
-        font-size: 13px;
-    }
-    .wrapper_desc {
-        font-size: 13px;
-    }
-    .team__item1 {
-        width: 100%;
-        left: 10%;
-    }
-    .team__item2 {
-        width: 60%;
-        left: 32%;
-        top: 29%;
-    }
-    .team__item4 {
-        top: 47%;
-        right: 14%;
-        width: 10%;
-    }
-    .team__item3 {
-        bottom: 28%;
-        width: 10%;
-        left: 8%;
-    }
-
-    .wrapper-item__card {
-        width: 100%;
-    }
     .card-canvas2::after {
-        width: 183px;
-        left: -14px;
+        width: 218px;
+        left: -21%;
     }
-    .started {
-        height: 1170px;
-        width: 100%;
+    .started__title2 {
+        font-size: 17px;
+        line-height: 36px;
     }
     .started__card1 {
-        width: 75%;
-        height: 275px;
-        margin: 0 35px;
+        width: 250px;
+        height: 380px;
     }
     .page__title {
-        font-size: 12px;
-        line-height: 24px;
-        width: 62%;
-        margin: 16px 43px;
+        margin: 40px auto;
     }
-    .ui__design__title {
-        margin-top: 28px;
-    }
-    .starting__title-from {
-        margin-top: 33px;
-    }
-
     .started__card2 {
-        width: 75%;
-        height: 275px;
-        margin: 0 35px;
+        width: 250px;
+        height: 380px;
     }
     .started__card3 {
-        width: 75%;
-        height: 275px;
-        margin: 0 35px;
+        width: 250px;
+        height: 380px;
     }
-    .ui__design {
-        margin-top: 38px;
-    }
-    .testimonial__p{
+    .testimonial__p {
         font-size: 11px;
-        margin: 0 161px;
+        line-height: 26px;
     }
-    .pic{
-        margin-left: 2%;
-    }
-    .detail__btn,.detail__btn2, .detail__btn3 {
+    .we__title {
         font-size: 14px;
-        width: 112px;
-        height: 29px;
+        line-height: 30px;
     }
-
+    .we__btn1 {
+        margin-bottom: 20px;
+        padding: 5px 15px;
+    }
+    .we__btn2 {
+        padding: 5px 15px;
+    }
 }
+
+
+

@@ -14,7 +14,7 @@ $('.test__card').slick({
 
         },
         {
-            breakpoint: 992,
+            breakpoint: 993,
             settings:{
                 slidesToShow: 2
             }
