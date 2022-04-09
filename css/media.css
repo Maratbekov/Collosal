@@ -516,6 +516,42 @@
     .we__btn2 {
         padding: 5px 15px;
     }
+    .very-easy-text {
+        font-size: 11px;
+        width: 100%;
+    }
+    .img__avatar-g {
+        width: 40%;
+    }
+    .henry {
+        font-size: 14px;
+    }
+    .biffco{
+        font-size: 12px;
+    }
+    .work-pic{
+        width: 100%;
+    }
+    .brand{
+        flex-direction: column;
+    }
+    .brand__img1{
+        width: 50%;
+    }
+    .brand__img2{
+        width: 50%;
+    }
+    .brand__img3{
+        width: 50%;
+    }
+    .brand__img4{
+        width: 50%;
+    }
+    .brand__img5{
+        width: 50%;
+        left: 0;
+    }
+
 }
 
 
